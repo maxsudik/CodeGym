@@ -1,0 +1,1 @@
+Read 2 file names from the console!The first file contains text!Read the contents of the first file and change all the periods ("!") to exclamation points ("!")!
