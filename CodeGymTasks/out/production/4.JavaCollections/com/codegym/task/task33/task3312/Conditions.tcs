@@ -1,0 +1,21 @@
+taskKey="com.codegym.task.task33.task3312"\n\nSerializing a zoo
+
+
+Make it so that a type is added to each element of the animals list when you serialize a Zoo object
+(dog for the Dog class, cat for the Cat class).
+To check, you can use the Solution class&#39;s main method.
+
+Before:
+{&quot;animals&quot;:[{&quot;name&quot;:&quot;doggy&quot;,&quot;barkVolume&quot;:0.0},{&quot;name&quot;:&quot;catty&quot;,&quot;lives&quot;:0}]}
+After:
+{&quot;animals&quot;:[{&quot;type&quot;:&quot;dog&quot;,&quot;name&quot;:&quot;doggy&quot;,&quot;barkVolume&quot;:0.0},{&quot;type&quot;:&quot;cat&quot;,&quot;name&quot;:&quot;catty&quot;,&quot;lives&quot;:0}]}
+
+
+Требования:
+1.	The Zoo.Animal class must be annotated with @JsonTypeInfo.
+2.	The Zoo.Animal class must be annotated with @JsonSubTypes.
+3.	The Zoo.Dog class must be annotated with @JsonTypeName.
+4.	The Zoo.Cat class must be annotated with @JsonTypeName.
+5.	When serialized into JSON, all objects in the animals list must have a type added and be saved in the main format (see the example in the task conditions).
+
+
