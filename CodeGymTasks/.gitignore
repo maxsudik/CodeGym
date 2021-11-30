@@ -1,8 +1,14 @@
 ﻿#############
 ## Idea
 #############
-*.iml
-.idea
-*.class
 target/
-*.DS_Store
+.idea/
+.idea
+.repository/
+*.iml
+*.iws
+*.tcs
+*.java
+*.class
+*.info
+*.properties
