@@ -4,11 +4,7 @@
 target/
 .idea/
 .idea
-.repository/
 *.iml
 *.iws
-*.tcs
-*.java
-*.class
 *.info
 *.properties
