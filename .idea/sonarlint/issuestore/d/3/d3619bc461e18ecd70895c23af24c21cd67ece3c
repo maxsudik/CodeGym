@@ -1,0 +1,16 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ù©È±8¤Å¢»÷/
+k
+java:S2272-"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(ÓÔç8ÁÅ¢»÷/
+]	java:S1252"<This block of commented-out lines of code should be removed.(æ·ÒÌøÿÿÿÿ8ÇÅ¢»÷/
+I
+java:S30116",This accessibility update should be removed.(ÁÀä¸8ÎÅ¢»÷/
+J	java:S1089")Either remove or fill this block of code.(Ï» ûıÿÿÿÿ8ÔÅ¢»÷/
+\
+java:S1161A":Add the "@Override" annotation above this method signature(¦³üëûÿÿÿÿ8âÅ¢»÷/
+P
+java:S1121>".Extract the assignment out of this expression.(Éåğ¯ûÿÿÿÿ8íÅ¢»÷/
+Z
+java:S1155)">Use isEmpty() to check whether the collection is empty or not.(æ8ôÅ¢»÷/
+k
+java:S2259;"IA "NullPointerException" could be thrown; "elementData" is nullable here.(úœ·äÿÿÿÿÿ8÷Ç¢»÷/

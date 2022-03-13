@@ -48,7 +48,20 @@ public class Solution {
 
         @Override
         public void run() {
-            //write your code here
+            int i = 0;
+            try {
+                while (i < OnlineGame.actions.size()) {
+                    System.out.println(getName() + ":" + OnlineGame.actions.get(i));
+                    i++;
+                    Thread.sleep((long) (1000 / rating));
+                }
+                if (!OnlineGame.isWinnerFound) {
+                    OnlineGame.isWinnerFound = true;
+                    System.out.println(getName() + ":won!");
+                }
+            } catch (InterruptedException e) {
+                System.out.println(getName() + ":lost");
+            }
         }
     }
 }
